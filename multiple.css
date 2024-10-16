@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.container{
+margin-top: 2%;
+font-family: 'poppins';
+}
+.header{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+
+}
+form .take-all{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+form input{
+    width:20vw;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(22, 22, 112);
+    outline: 0;
+} 
+.add-more{
+    background-color: rgb(32, 32, 119);
+    color: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+.save-all button{
+    margin-top: 30px;
+    background-color: rgb(201, 63, 109);
+    color: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
